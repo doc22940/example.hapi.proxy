@@ -1,0 +1,14 @@
+{
+  "name": "hapi-ws-proxy-example",
+  "version": "1.0.0",
+  "description": "Just an example project using Hapi as a reverse proxy for websocket upstream servers.",
+  "main": "proxy.js",
+  "author": "Dmytro Navrotskyy <double.ypsilon@gmail.com> (http://dypsilon.com/)",
+  "license": "BSD",
+  "dependencies": {
+    "hapi": "^6.2.0",
+    "ws": "^0.4.31",
+    "good": "^2.2.0",
+    "http-proxy": "^1.1.6"
+  }
+}
