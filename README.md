@@ -1,6 +1,6 @@
 # Hapi Proxy Handler + Websockets
 
-This a simple example on how to use [node-http-proxy](https://github.com/nodejitsu/node-http-proxy) to handle websockets in a Hapi setup. Keep in mind, that this setup bypasses the Hapi stack completely, leaving your Websocket endpoint exposed. The [upgrade request](http://en.wikipedia.org/wiki/HTTP/1.1_Upgrade_header) doesn't go through the [Hapi Request lifecycle](http://hapijs.com/api#request-lifecycle).
+This is a simple example on how to use [node-http-proxy](https://github.com/nodejitsu/node-http-proxy) to handle websockets in a Hapi setup. Keep in mind, that this setup bypasses the Hapi stack completely, leaving your Websocket endpoint exposed. The [upgrade request](http://en.wikipedia.org/wiki/HTTP/1.1_Upgrade_header) doesn't go through the [Hapi Request lifecycle](http://hapijs.com/api#request-lifecycle).
 
 ## Running
 
